@@ -7,9 +7,15 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 import { Given } from "cypress-cucumber-preprocessor/steps";
 
-Given('user is on GMI Bank page',()=>{
+Given(' is on user settings page ',()=>{
 
   cy.visit('https://gmibank.com/');
 
+  cy.get('#account-menu > .dropdown-toggle').click();
+  cy.get('#login-item').click();
+  
 
 })
+
+
+cy.get('#settings-title > span')
