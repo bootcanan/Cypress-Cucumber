@@ -3,7 +3,7 @@ Feature: US_001 System should allow any user to register with valid credentials
 
 # Background:
 # Given user is on GMI Bank page
-# Then user clicks regitretion button
+# Then user clicks registration button
 
 
 
