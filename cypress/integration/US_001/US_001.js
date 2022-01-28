@@ -1,5 +1,3 @@
-
-
 Cypress.on('uncaught:exception', (err, runnable) => {
    
   return false
@@ -15,7 +13,4 @@ Given(' is on user settings page ',()=>{
   cy.get('#login-item').click();
   
 
-})
-
-
-cy.get('#settings-title > span')
+});

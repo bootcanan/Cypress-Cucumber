@@ -1,8 +1,6 @@
 
-
-
 {"testFiles": "**/*.feature",
-    
+ 
     
     "reporter": "cypress-multi-reporters",
     "reporterOptions": {
