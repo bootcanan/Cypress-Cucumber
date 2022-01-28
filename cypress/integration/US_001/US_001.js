@@ -54,6 +54,10 @@ Then('number cannot be entered in the firstname box',() => {
 })
 Then('the firstname box should be left blank',() => {
 
+  cy.get('#account-menu > .dropdown-toggle').click();
+  cy.get('#login-item').click();
+  
 
 })
+
 })
