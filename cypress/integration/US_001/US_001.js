@@ -76,6 +76,7 @@ Then('number cannot be entered in the lastname box',() => {
 
   cy.get('#lastname').clear().type('12345')
   cy.get('#lastname').should('have.value', '12345')
+  
   //1. bug
 
 })
@@ -139,7 +140,7 @@ Then('only numbers cannot be written in the username box',() => {
   cy.get('#username').type('12345')
   cy.get('#register-submit').click();
   cy.get('#username').should('have.class', 'av-valid')
-  //cy.get(':nth-child(6) > .invalid-feedback').should('not.be.visible')
+  
   //2. bug
 })
 
