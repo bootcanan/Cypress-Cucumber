@@ -11,9 +11,4 @@ Feature: US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina iz
 
 
     Scenario: TC_002 There should not be an option of any other language other than English or Turkish
-        # Given user is on GMI Bank page
-        # Then clicks the profile icon
-        # Then clicks signIn
-        # Then writes username and password
-        # Then clicks user info
         Then There should be two "<language>" options, English and Turkish.
