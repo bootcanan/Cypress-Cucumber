@@ -1,5 +1,3 @@
-
-
 Cypress.on('uncaught:exception', (err, runnable) => {
    
   return false
@@ -18,7 +16,6 @@ describe("US 001", () => {
 Given('user is on GMI Bank page',()=>{
 
   cy.visit('https://gmibank.com/');
-  
 
 })
 
@@ -26,10 +23,8 @@ Then('user clicks registration button',()=>{
 
   cy.get('#account-menu > .dropdown-toggle').click();
   cy.get('[href="/account/register"] > span').click();
-  
 
 })
-
 
 Then('tests that information can be entered in the SSN box as desired.',() => {
 
@@ -41,11 +36,9 @@ Then('tests that information can be entered in the SSN box as desired.',() => {
 
 Then('letters must be entered in the firstname box',() => {
 
-
   cy.get('#firstname').type('Firstname')
   cy.get('#firstname').should('have.value', 'Firstname')
  
-  
 })
 
 Then('number cannot be entered in the firstname box',() => {
@@ -53,8 +46,8 @@ Then('number cannot be entered in the firstname box',() => {
   cy.get('#firstname').clear().type('12345')
   cy.get('#firstname').should('have.value', '12345')
 
-
 })
+
 Then('the firstname box should be left blank',() => {
 
 
@@ -76,17 +69,16 @@ Then('number cannot be entered in the lastname box',() => {
 
   cy.get('#lastname').clear().type('12345')
   cy.get('#lastname').should('have.value', '12345')
+
   //1. bug
 
 })
 
 Then('the lastname box should be left blank',() => {
 
-  
   cy.get('#lastname').clear()
   cy.get('#register-submit').click();
   cy.get(':nth-child(3) > .invalid-feedback').should('be.visible');
-
 
 })
 
@@ -114,7 +106,6 @@ Then('missing numbers cannot be entered in the number box.',() => {
   cy.get('#register-submit').click();
   cy.get(':nth-child(5) > .invalid-feedback').should('be.visible')
 
-
 })
 
 Then('numbers must be entered in the phone number box',() => {
@@ -122,7 +113,6 @@ Then('numbers must be entered in the phone number box',() => {
   cy.get('#mobilephone').clear().type('abcd')
   cy.get('#register-submit').click();
   cy.get(':nth-child(5) > .invalid-feedback').should('be.visible')
-
 
 })
 
@@ -139,8 +129,9 @@ Then('only numbers cannot be written in the username box',() => {
   cy.get('#username').type('12345')
   cy.get('#register-submit').click();
   cy.get('#username').should('have.class', 'av-valid')
-  //cy.get(':nth-child(6) > .invalid-feedback').should('not.be.visible')
+  
   //2. bug
+
 })
 
 Then('the username box should be left blank',() => {
@@ -148,6 +139,7 @@ Then('the username box should be left blank',() => {
   cy.get('#username').clear()
   cy.get('#register-submit').click();
   cy.get(':nth-child(6) > .invalid-feedback').should('be.visible')
+
 })
 
 Then('must accept any character along with numbers in the username box',() => {
@@ -163,6 +155,7 @@ Then('enters an email according to the desired criteria',() => {
   cy.get('#email').type('deneme')
   cy.get('#register-submit').click();
   cy.get(':nth-child(7) > .invalid-feedback').should('be.visible')
+
 })
 
 })
