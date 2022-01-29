@@ -1,8 +1,10 @@
 
 
 
-{"testFiles": "**/*.feature",
-    
+{
+    "testFiles": "**/*.feature",
+
+    "projectId": "psbbps",
     
     "reporter": "cypress-multi-reporters",
     "reporterOptions": {
