@@ -1,23 +1,19 @@
 Feature: US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir.
 
-    Scenario: TC_001 E-posta adresi, "@" veya "." işaretleri olmadan yalnizca rakam veya karakter içeremez.
+
+    Scenario: TC_001 Email id cannot contain just digits or chars without "@" sign or "." extension
         Given user is on GMI Bank page
+        Then clicks the profile icon
+        Then clicks signIn
+        Then writes username and password
+        Then clicks user info
+        Then email address "@" and "." must contain
 
-#Feature: US_007 The system should not allow updates with invalid credentials.
 
-#   Background:
-#     When user goes to gmibank page
-#     Then clicks the profile icon
-#     Then clicks signIn
-#     Then writes username and password
-#     Then clicks user info
-
-#   @tc_030
-#   Scenario: TC_030
-#     Then email address "@" and "." must contain
-#     And closes the browser
-
-#   @tc_031
-#   Scenario: TC_026  There should be 2 language options, "English and Turkish".
-#     Then There should be two "<language>" options, English and Turkish.
-#     And closes the browser
+    Scenario: TC_002 There should not be an option of any other language other than English or Turkish
+        # Given user is on GMI Bank page
+        # Then clicks the profile icon
+        # Then clicks signIn
+        # Then writes username and password
+        # Then clicks user info
+        Then There should be two "<language>" options, English and Turkish.
