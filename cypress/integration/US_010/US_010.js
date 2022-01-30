@@ -14,6 +14,7 @@ Given('user is on GMI Bank page',()=>{
 Given('user clicks sign in button',()=>{
 
   cy.get('#account-menu > .dropdown-toggle').click()
+  
   cy.get('#login-item').click()
 
 
