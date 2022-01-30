@@ -12,6 +12,8 @@
             "html": false,
             "json": true
         }
-    }
+    },
+    "watchForFileChanges": false
+    
 }
 
