@@ -15,8 +15,8 @@
     },
     "watchForFileChanges": false,
     
-     "baseUrl": "https://www.gmibank.com",
-     "integrationFolder": "cypress/integration"
+    "baseUrl": "https://www.gmibank.com",
+     "integrationFolder": "cypress/integration/api-tests"
     
        
 }
