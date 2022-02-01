@@ -1,9 +1,3 @@
-Cypress.on('uncaught:exception', (err, runnable) => {
-   
-    return false
-  });
-
-
  Given('Deletes user endpoint {string} and id {string} state',(endpoint,id)=>{
   
     cy.api({
