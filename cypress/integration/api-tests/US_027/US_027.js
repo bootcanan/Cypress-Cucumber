@@ -3,10 +3,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   });
 
-describe('DELETE', () => {
-      it('Delete states data', () => {
-        
- });
 
  Given('Deletes user endpoint {string} and id {string} state',(endpoint,id)=>{
   
@@ -26,5 +22,5 @@ describe('DELETE', () => {
       })
   
   
-  })
+
  
