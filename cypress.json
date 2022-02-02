@@ -5,6 +5,8 @@
     "testFiles": "**/*.feature",
 
     "projectId": "psbbps",
+{"testFiles": "**/*.feature",
+ 
     
     "reporter": "cypress-multi-reporters",
     "reporterOptions": {
@@ -17,7 +19,11 @@
             "json": true
         }
     },
-    "watchForFileChanges": false
+    "watchForFileChanges": false,
     
+     "baseUrl": "https://www.gmibank.com",
+     "integrationFolder": "cypress/integration"
+    
+       
 }
 
