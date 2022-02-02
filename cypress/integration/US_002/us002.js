@@ -85,5 +85,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
       cy.wait(1000)
       cy.get(':nth-child(7) > .invalid-feedback').should('contain.text', 'invalid')
   })
-      
-       
+//npx cypress run --spec cypress\integration\US_002.feature
+//browselı
+//npx cypress run --spec cypress\integration\US_002.feature --browser chrome
+
+//dashborddan calıştırma
+//npx cypress run --record --key ac867a47-282b-4a0a-9cee-ea6f5e4f0568
