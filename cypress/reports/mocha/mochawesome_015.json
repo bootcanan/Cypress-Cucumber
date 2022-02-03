@@ -1,0 +1,188 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 4,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-01-29T19:42:21.055Z",
+    "end": "2022-01-29T19:43:08.514Z",
+    "duration": 47459,
+    "testsRegistered": 5,
+    "passPercent": 80,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e17bd6e7-effb-4829-a67b-7ba00e44c3dd",
+      "title": "",
+      "fullFile": "cypress/integration/US_005.feature",
+      "file": "cypress/integration/US_005.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+          "title": "US_005 Login page should not be accessible with invalid credentials",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 User cannot login with invalid username validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_001 User cannot login with invalid username validating the error message",
+              "timedOut": null,
+              "duration": 17487,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "413c0a51-cb9d-41f7-8220-125551466b94",
+              "parentUUID": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 User cannot login with invalid password validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_002 User cannot login with invalid password validating the error message",
+              "timedOut": null,
+              "duration": 5553,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "03be1883-934c-4dff-85a1-4d88df5d4da4",
+              "parentUUID": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_003 User cannot login with invalid username and password validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_003 User cannot login with invalid username and password validating the error message",
+              "timedOut": null,
+              "duration": 4896,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "802206c8-c855-4677-b19c-bbb9dea5822e",
+              "parentUUID": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_004 User who wants to login with invalid username and password, there should be password reset button",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_004 User who wants to login with invalid username and password, there should be password reset button",
+              "timedOut": null,
+              "duration": 6994,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "794b91f6-159d-46a2-b989-610618b714ad",
+              "parentUUID": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_005 User who wants to login with invalid username and password, there should be registration button",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_005 User who wants to login with invalid username and password, there should be registration button",
+              "timedOut": null,
+              "duration": 8624,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > .alert`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > .alert`, but never found it.\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_005.feature:65:36)\n    at Context.resolveAndRunStepDefinition (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_005.feature:12320:29)\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_005.feature:11641:35)",
+                "diff": null
+              },
+              "uuid": "19fe2f3b-b6ec-41bb-9714-48d21f1e20af",
+              "parentUUID": "1f731e7b-0cd2-41d0-9e0f-b3da3ed8493b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "413c0a51-cb9d-41f7-8220-125551466b94",
+            "03be1883-934c-4dff-85a1-4d88df5d4da4",
+            "802206c8-c855-4677-b19c-bbb9dea5822e",
+            "794b91f6-159d-46a2-b989-610618b714ad"
+          ],
+          "failures": [
+            "19fe2f3b-b6ec-41bb-9714-48d21f1e20af"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 43554,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

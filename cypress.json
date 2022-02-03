@@ -1,4 +1,10 @@
 
+
+
+{
+    "testFiles": "**/*.feature",
+
+    "projectId": "psbbps",
 {"testFiles": "**/*.feature",
  
     
@@ -13,7 +19,11 @@
             "json": true
         }
     },
-    "watchForFileChanges": false
+    "watchForFileChanges": false,
     
+     "baseUrl": "https://www.gmibank.com",
+     "integrationFolder": "cypress/integration"
+    
+       
 }
 
