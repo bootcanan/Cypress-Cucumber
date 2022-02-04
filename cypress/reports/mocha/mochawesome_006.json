@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2022-01-30T20:12:44.375Z",
+    "end": "2022-01-30T20:13:58.067Z",
+    "duration": 73692,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "07ea375d-a521-4e61-835e-e11f3484f26f",
+      "title": "",
+      "fullFile": "cypress/integration/US_006.feature",
+      "file": "cypress/integration/US_006.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+          "title": "US_006_User info segment (User Settings) should be editable on Homepage",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 User Settings should be editable on Homepage",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_001 User Settings should be editable on Homepage",
+              "timedOut": null,
+              "duration": 48313,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "CypressError: Timed out retrying after 4050ms: `cy.click()` could not be issued because we could not determine the actionability of this element:\n\n`<span>abc123 bes</span>`\n\nYou can prevent this by passing `{force: true}` to disable all error checking.",
+                "estack": "CypressError: Timed out retrying after 4050ms: `cy.click()` could not be issued because we could not determine the actionability of this element:\n\n`<span>abc123 bes</span>`\n\nYou can prevent this by passing `{force: true}` to disable all error checking.\n    at ensureNotAnimating (https://gmibank.com/__cypress/runner/cypress_runner.js:150281:74)\n    at runAllChecks (https://gmibank.com/__cypress/runner/cypress_runner.js:150416:9)\n    at retryActionability (https://gmibank.com/__cypress/runner/cypress_runner.js:150448:16)\n    at tryCatcher (https://gmibank.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Function.Promise.attempt.Promise.try (https://gmibank.com/__cypress/runner/cypress_runner.js:10470:29)\n    at whenStable (https://gmibank.com/__cypress/runner/cypress_runner.js:168438:63)\n    at https://gmibank.com/__cypress/runner/cypress_runner.js:167935:14\n    at tryCatcher (https://gmibank.com/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (https://gmibank.com/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (https://gmibank.com/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (https://gmibank.com/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (https://gmibank.com/__cypress/runner/cypress_runner.js:11313:18)\n    at Promise._fulfill (https://gmibank.com/__cypress/runner/cypress_runner.js:11257:18)\n    at https://gmibank.com/__cypress/runner/cypress_runner.js:12871:46\nFrom Your Spec Code:\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:53:53)\n    at Context.resolveAndRunStepDefinition (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:12326:29)\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:11647:35)",
+                "diff": null
+              },
+              "uuid": "36fc8193-3d3f-45e0-ac08-71d05a2e8fc9",
+              "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 There should be 2 languages available English and Turkish",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be 2 languages available English and Turkish",
+              "timedOut": null,
+              "duration": 5301,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#langKey`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#langKey`, but never found it.\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:61:6)\n    at Context.resolveAndRunStepDefinition (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:12326:29)\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:11647:35)",
+                "diff": null
+              },
+              "uuid": "1e85390b-06a2-45d1-9ba8-191a205dc223",
+              "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 There should be an option to update firstname",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be an option to update firstname",
+              "timedOut": null,
+              "duration": 5098,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#firstName`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#firstName`, but never found it.\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:68:6)\n    at Context.resolveAndRunStepDefinition (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:12326:29)\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:11647:35)",
+                "diff": null
+              },
+              "uuid": "46318302-5a39-46fd-9254-a3a0ee0fa1a8",
+              "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "There should be an option to update email id adding \"@\" sign and \".\" extension",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage There should be an option to update email id adding \"@\" sign and \".\" extension",
+              "timedOut": null,
+              "duration": 6568,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#email`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#email`, but never found it.\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:78:6)\n    at Context.resolveAndRunStepDefinition (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:12326:29)\n    at Context.eval (https://gmibank.com/__cypress/tests?p=cypress\\integration\\US_006.feature:11647:35)",
+                "diff": null
+              },
+              "uuid": "02d29e5b-cad8-4a7f-9090-8203bf1d0199",
+              "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "36fc8193-3d3f-45e0-ac08-71d05a2e8fc9",
+            "1e85390b-06a2-45d1-9ba8-191a205dc223",
+            "46318302-5a39-46fd-9254-a3a0ee0fa1a8",
+            "02d29e5b-cad8-4a7f-9090-8203bf1d0199"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 65280,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

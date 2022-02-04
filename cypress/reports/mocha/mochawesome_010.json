@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-30T20:21:50.337Z",
+    "end": "2022-01-30T20:22:40.600Z",
+    "duration": 50263,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "27e6ba51-083b-4311-8642-2988f7d50eaa",
+      "title": "",
+      "fullFile": "cypress/integration/US_014.feature",
+      "file": "cypress/integration/US_014.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34870864-ebf5-4225-9a8a-e334a12fe005",
+          "title": "US_014 The date must be created at the time of account creation.",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 The date cannot be typed earlier, in the past, at the time of creation an account",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_001 The date cannot be typed earlier, in the past, at the time of creation an account",
+              "timedOut": null,
+              "duration": 31551,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "7338632d-6b74-4784-9a52-1ce8282da800",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 User can choose a user from the registration and it cannot be blank",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_002 User can choose a user from the registration and it cannot be blank",
+              "timedOut": null,
+              "duration": 6708,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d6da0518-f0db-4021-ab5a-e0a8c91fd89a",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_003 user can choose an account created on manage accounts",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_003 user can choose an account created on manage accounts",
+              "timedOut": null,
+              "duration": 3404,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ab6bc4eb-ecbe-40d0-acb6-c5032c1842e8",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_004 User can select Zelle Enrolled optionally and save it",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_004 User can select Zelle Enrolled optionally and save it",
+              "timedOut": null,
+              "duration": 3660,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "3bae7697-9c77-4301-88db-033e71e6e1b9",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7338632d-6b74-4784-9a52-1ce8282da800",
+            "d6da0518-f0db-4021-ab5a-e0a8c91fd89a",
+            "ab6bc4eb-ecbe-40d0-acb6-c5032c1842e8",
+            "3bae7697-9c77-4301-88db-033e71e6e1b9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 45323,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

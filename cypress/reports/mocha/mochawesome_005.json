@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-30T20:10:13.989Z",
+    "end": "2022-01-30T20:11:40.403Z",
+    "duration": 86414,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c3020da1-3943-49e3-b3f9-2c8c23d4c342",
+      "title": "",
+      "fullFile": "cypress/integration/US_005.feature",
+      "file": "cypress/integration/US_005.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+          "title": "US_005 Login page should not be accessible with invalid credentials",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 User cannot login with invalid username validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_001 User cannot login with invalid username validating the error message",
+              "timedOut": null,
+              "duration": 21545,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "266c6ae7-cd67-4530-a4ca-a2b8337216c3",
+              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 User cannot login with invalid password validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_002 User cannot login with invalid password validating the error message",
+              "timedOut": null,
+              "duration": 10957,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f3ebbe1e-ee5c-4022-b8d3-0e8798407eba",
+              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_003 User cannot login with invalid username and password validating the error message",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_003 User cannot login with invalid username and password validating the error message",
+              "timedOut": null,
+              "duration": 13453,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "76c676e1-9d68-41bd-9136-63e804760954",
+              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_004 User who wants to login with invalid username and password, there should be password reset button",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_004 User who wants to login with invalid username and password, there should be password reset button",
+              "timedOut": null,
+              "duration": 18252,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "68fd7284-4b99-41b2-af80-8218454226d3",
+              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_005 User who wants to login with invalid username and password, there should be registration button",
+              "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_005 User who wants to login with invalid username and password, there should be registration button",
+              "timedOut": null,
+              "duration": 13928,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e3d23e80-3d93-466b-be9b-da50eb493a9c",
+              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "266c6ae7-cd67-4530-a4ca-a2b8337216c3",
+            "f3ebbe1e-ee5c-4022-b8d3-0e8798407eba",
+            "76c676e1-9d68-41bd-9136-63e804760954",
+            "68fd7284-4b99-41b2-af80-8218454226d3",
+            "e3d23e80-3d93-466b-be9b-da50eb493a9c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 78135,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

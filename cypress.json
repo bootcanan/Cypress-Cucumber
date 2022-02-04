@@ -1,5 +1,8 @@
 
-{"testFiles": "**/*.feature",
+{
+    
+    "projectId": "djgq48",
+    "testFiles": "**/*.feature",
  
     
     "reporter": "cypress-multi-reporters",
