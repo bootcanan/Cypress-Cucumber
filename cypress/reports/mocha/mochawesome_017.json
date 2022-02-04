@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-29T19:44:45.963Z",
+    "end": "2022-01-29T19:45:01.462Z",
+    "duration": 15499,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "569a48e0-7d4d-4b4e-8d73-1d09ad560267",
+      "title": "",
+      "fullFile": "cypress/integration/US_007.feature",
+      "file": "cypress/integration/US_007.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4563002d-03e0-47b0-960f-bf07a2c2b4fa",
+          "title": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir.",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 E-posta adresi, \"@\" veya \".\" işaretleri olmadan yalnizca rakam veya karakter içeremez.",
+              "fullTitle": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir. TC_001 E-posta adresi, \"@\" veya \".\" işaretleri olmadan yalnizca rakam veya karakter içeremez.",
+              "timedOut": null,
+              "duration": 12621,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f939ff51-b193-4946-9d7f-35b2cbb01a65",
+              "parentUUID": "4563002d-03e0-47b0-960f-bf07a2c2b4fa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f939ff51-b193-4946-9d7f-35b2cbb01a65"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12621,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

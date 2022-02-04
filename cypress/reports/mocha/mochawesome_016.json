@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-29T19:43:51.754Z",
+    "end": "2022-01-29T19:44:24.167Z",
+    "duration": 32413,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8f94f076-fddd-420f-b7c2-5d699d8128c4",
+      "title": "",
+      "fullFile": "cypress/integration/US_006.feature",
+      "file": "cypress/integration/US_006.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab267559-53c7-40cc-a604-38abcd71f577",
+          "title": "US_006_User info segment (User Settings) should be editable on Homepage",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 User Settings should be editable on Homepage",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_001 User Settings should be editable on Homepage",
+              "timedOut": null,
+              "duration": 24635,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b14b3f6c-eb77-4f18-8c46-65c76257b06d",
+              "parentUUID": "ab267559-53c7-40cc-a604-38abcd71f577",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 There should be 2 languages available English and Turkish",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be 2 languages available English and Turkish",
+              "timedOut": null,
+              "duration": 1647,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "06841db0-d7c1-4bc6-ab91-c56d73940da4",
+              "parentUUID": "ab267559-53c7-40cc-a604-38abcd71f577",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 There should be an option to update firstname",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be an option to update firstname",
+              "timedOut": null,
+              "duration": 1026,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "01291b48-7597-4d93-9797-ddcfc0b219e8",
+              "parentUUID": "ab267559-53c7-40cc-a604-38abcd71f577",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "There should be an option to update email id adding \"@\" sign and \".\" extension",
+              "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage There should be an option to update email id adding \"@\" sign and \".\" extension",
+              "timedOut": null,
+              "duration": 1985,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e3b7996b-61e9-462d-8c29-12f4f73b9f17",
+              "parentUUID": "ab267559-53c7-40cc-a604-38abcd71f577",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b14b3f6c-eb77-4f18-8c46-65c76257b06d",
+            "06841db0-d7c1-4bc6-ab91-c56d73940da4",
+            "01291b48-7597-4d93-9797-ddcfc0b219e8",
+            "e3b7996b-61e9-462d-8c29-12f4f73b9f17"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 29293,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
