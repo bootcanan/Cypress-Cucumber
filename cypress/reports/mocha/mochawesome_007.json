@@ -1,6 +1,7 @@
 {
   "stats": {
     "suites": 1,
+<<<<<<< HEAD
     "tests": 2,
     "passes": 2,
     "pending": 0,
@@ -9,6 +10,16 @@
     "end": "2022-01-30T20:16:58.321Z",
     "duration": 70643,
     "testsRegistered": 2,
+=======
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-29T18:14:45.384Z",
+    "end": "2022-01-29T18:15:06.114Z",
+    "duration": 20730,
+    "testsRegistered": 1,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +29,11 @@
   },
   "results": [
     {
+<<<<<<< HEAD
       "uuid": "810b79e5-a8dc-43d8-aa5a-a7626bb2c52f",
+=======
+      "uuid": "df69b521-1ac2-45f2-b006-a318e4d6a398",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
       "title": "",
       "fullFile": "cypress/integration/US_007.feature",
       "file": "cypress/integration/US_007.feature",
@@ -27,7 +42,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "8433c6c4-f5f7-4cff-b7e9-5cdae8d7d4fa",
+=======
+          "uuid": "24f6be91-5a0f-41fc-8de7-c4daee4b1558",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "title": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir.",
           "fullFile": "",
           "file": "",
@@ -35,10 +54,17 @@
           "afterHooks": [],
           "tests": [
             {
+<<<<<<< HEAD
               "title": "TC_001 Email id cannot contain just digits or chars without \"@\" sign or \".\" extension",
               "fullTitle": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir. TC_001 Email id cannot contain just digits or chars without \"@\" sign or \".\" extension",
               "timedOut": null,
               "duration": 55367,
+=======
+              "title": "TC_001 E-posta adresi, \"@\" veya \".\" işaretleri olmadan yalnizca rakam veya karakter içeremez.",
+              "fullTitle": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir. TC_001 E-posta adresi, \"@\" veya \".\" işaretleri olmadan yalnizca rakam veya karakter içeremez.",
+              "timedOut": null,
+              "duration": 17604,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,6 +73,7 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
+<<<<<<< HEAD
               "uuid": "60d72778-9cce-4828-9812-5426ea5ed9c0",
               "parentUUID": "8433c6c4-f5f7-4cff-b7e9-5cdae8d7d4fa",
               "isHook": false,
@@ -67,19 +94,31 @@
               "err": {},
               "uuid": "0f276151-50a3-4ea3-8c6b-bb26dff5c57b",
               "parentUUID": "8433c6c4-f5f7-4cff-b7e9-5cdae8d7d4fa",
+=======
+              "uuid": "6092621d-1542-4f55-9b2e-b91e22d6fc74",
+              "parentUUID": "24f6be91-5a0f-41fc-8de7-c4daee4b1558",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
             "60d72778-9cce-4828-9812-5426ea5ed9c0",
             "0f276151-50a3-4ea3-8c6b-bb26dff5c57b"
+=======
+            "6092621d-1542-4f55-9b2e-b91e22d6fc74"
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
           "duration": 60302,
+=======
+          "duration": 17604,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

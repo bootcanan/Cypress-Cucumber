@@ -5,15 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-<<<<<<< HEAD
-    "start": "2022-01-30T20:19:56.734Z",
-    "end": "2022-01-30T20:20:56.211Z",
-    "duration": 59477,
-=======
-    "start": "2022-01-29T18:15:56.011Z",
-    "end": "2022-01-29T18:16:28.301Z",
-    "duration": 32290,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+    "start": "2022-01-29T19:39:10.834Z",
+    "end": "2022-01-29T19:39:32.476Z",
+    "duration": 21642,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -24,39 +18,27 @@
   },
   "results": [
     {
-<<<<<<< HEAD
-      "uuid": "e0b5f370-24c8-4d46-9b0d-06899acd1272",
-=======
-      "uuid": "febdb90e-c800-4ef1-ac47-02a76c606bfa",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "uuid": "3d7d8380-4554-43bf-b383-e68722b65ab5",
       "title": "",
-      "fullFile": "cypress/integration/US_010.feature",
-      "file": "cypress/integration/US_010.feature",
+      "fullFile": "cypress/integration/US_001.feature",
+      "file": "cypress/integration/US_001.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "1778215c-0178-468d-9478-dcdaf8a0c227",
-=======
-          "uuid": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
-          "title": "US_010 Address of customer can be created",
+          "uuid": "08da8841-a9df-43fa-87a0-4547e32c9257",
+          "title": "US_001 System should allow any user to register with valid credentials",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TC_001 Address as street and number should be provided  and cannot be left blank",
-              "fullTitle": "US_010 Address of customer can be created TC_001 Address as street and number should be provided  and cannot be left blank",
+              "title": "TC_001 There should be a valid SSN respecting the \"-\" where necessary, it should be 9 digits long",
+              "fullTitle": "US_001 System should allow any user to register with valid credentials TC_001 There should be a valid SSN respecting the \"-\" where necessary, it should be 9 digits long",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 52678,
-=======
-              "duration": 29477,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "duration": 17829,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,33 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "0274c5fa-a554-4c9f-8058-2bf0aa573320",
-              "parentUUID": "1778215c-0178-468d-9478-dcdaf8a0c227",
-=======
-              "uuid": "7a8b2234-4c82-4a1f-83c7-6d83252426c2",
-              "parentUUID": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "bef590db-1c39-4f59-88ac-7ab1a483cda1",
+              "parentUUID": "08da8841-a9df-43fa-87a0-4547e32c9257",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "0274c5fa-a554-4c9f-8058-2bf0aa573320"
-=======
-            "7a8b2234-4c82-4a1f-83c7-6d83252426c2"
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+            "bef590db-1c39-4f59-88ac-7ab1a483cda1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 52678,
-=======
-          "duration": 29477,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "duration": 17829,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

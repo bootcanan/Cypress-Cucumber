@@ -2,6 +2,7 @@
   "stats": {
     "suites": 1,
     "tests": 4,
+<<<<<<< HEAD
     "passes": 0,
     "pending": 0,
     "failures": 4,
@@ -10,6 +11,16 @@
     "duration": 73692,
     "testsRegistered": 4,
     "passPercent": 0,
+=======
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-29T18:13:57.985Z",
+    "end": "2022-01-29T18:14:33.810Z",
+    "duration": 35825,
+    "testsRegistered": 4,
+    "passPercent": 100,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +29,11 @@
   },
   "results": [
     {
+<<<<<<< HEAD
       "uuid": "07ea375d-a521-4e61-835e-e11f3484f26f",
+=======
+      "uuid": "58b087ed-3916-4aef-9bd7-d8b639378a31",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
       "title": "",
       "fullFile": "cypress/integration/US_006.feature",
       "file": "cypress/integration/US_006.feature",
@@ -27,7 +42,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
           "uuid": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+=======
+          "uuid": "49a4e79b-d6fe-4843-adad-812b7037c9e0",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "title": "US_006_User info segment (User Settings) should be editable on Homepage",
           "fullFile": "",
           "file": "",
@@ -38,6 +57,7 @@
               "title": "TC_001 User Settings should be editable on Homepage",
               "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_001 User Settings should be editable on Homepage",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 48313,
               "state": "failed",
               "speed": null,
@@ -53,6 +73,19 @@
               },
               "uuid": "36fc8193-3d3f-45e0-ac08-71d05a2e8fc9",
               "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+=======
+              "duration": 27650,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "316d3485-52c6-449f-90d7-951b9bcde049",
+              "parentUUID": "49a4e79b-d6fe-4843-adad-812b7037c9e0",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             },
@@ -60,6 +93,7 @@
               "title": "TC_002 There should be 2 languages available English and Turkish",
               "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be 2 languages available English and Turkish",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5301,
               "state": "failed",
               "speed": null,
@@ -75,6 +109,19 @@
               },
               "uuid": "1e85390b-06a2-45d1-9ba8-191a205dc223",
               "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+=======
+              "duration": 2044,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "2f95aa94-c0d4-4e46-9cf8-5a87c1485412",
+              "parentUUID": "49a4e79b-d6fe-4843-adad-812b7037c9e0",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             },
@@ -82,6 +129,7 @@
               "title": "TC_002 There should be an option to update firstname",
               "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage TC_002 There should be an option to update firstname",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 5098,
               "state": "failed",
               "speed": null,
@@ -97,6 +145,19 @@
               },
               "uuid": "46318302-5a39-46fd-9254-a3a0ee0fa1a8",
               "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+=======
+              "duration": 1401,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "81bd746d-9ff5-4aeb-91b4-e14626557bcf",
+              "parentUUID": "49a4e79b-d6fe-4843-adad-812b7037c9e0",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             },
@@ -104,6 +165,7 @@
               "title": "There should be an option to update email id adding \"@\" sign and \".\" extension",
               "fullTitle": "US_006_User info segment (User Settings) should be editable on Homepage There should be an option to update email id adding \"@\" sign and \".\" extension",
               "timedOut": null,
+<<<<<<< HEAD
               "duration": 6568,
               "state": "failed",
               "speed": null,
@@ -119,11 +181,25 @@
               },
               "uuid": "02d29e5b-cad8-4a7f-9090-8203bf1d0199",
               "parentUUID": "02331d7e-c965-4fbc-8210-b71fb62dc325",
+=======
+              "duration": 1865,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0f11bd4a-2206-4036-ba34-599d35755d6e",
+              "parentUUID": "49a4e79b-d6fe-4843-adad-812b7037c9e0",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
+<<<<<<< HEAD
           "passes": [],
           "failures": [
             "36fc8193-3d3f-45e0-ac08-71d05a2e8fc9",
@@ -134,6 +210,18 @@
           "pending": [],
           "skipped": [],
           "duration": 65280,
+=======
+          "passes": [
+            "316d3485-52c6-449f-90d7-951b9bcde049",
+            "2f95aa94-c0d4-4e46-9cf8-5a87c1485412",
+            "81bd746d-9ff5-4aeb-91b4-e14626557bcf",
+            "0f11bd4a-2206-4036-ba34-599d35755d6e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 32960,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
