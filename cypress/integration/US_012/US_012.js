@@ -94,4 +94,3 @@ Given('user click Delete Button', () => {
     cy.get('span').contains(' Customer 38016?')
     cy.get('.btn-secondary').click()
 })
-//.modal-body

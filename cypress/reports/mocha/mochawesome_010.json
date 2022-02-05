@@ -1,6 +1,16 @@
 {
   "stats": {
     "suites": 1,
+<<<<<<< HEAD
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-30T20:21:50.337Z",
+    "end": "2022-01-30T20:22:40.600Z",
+    "duration": 50263,
+    "testsRegistered": 4,
+=======
     "tests": 25,
     "passes": 25,
     "pending": 0,
@@ -9,6 +19,7 @@
     "end": "2022-01-29T18:28:24.867Z",
     "duration": 47624,
     "testsRegistered": 25,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,27 +29,46 @@
   },
   "results": [
     {
+<<<<<<< HEAD
+      "uuid": "27e6ba51-083b-4311-8642-2988f7d50eaa",
+      "title": "",
+      "fullFile": "cypress/integration/US_014.feature",
+      "file": "cypress/integration/US_014.feature",
+=======
       "uuid": "3b3d1281-626c-4038-8477-23e2cc8900c1",
       "title": "",
       "fullFile": "cypress/integration/US_002.feature",
       "file": "cypress/integration/US_002.feature",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
+          "uuid": "34870864-ebf5-4225-9a8a-e334a12fe005",
+          "title": "US_014 The date must be created at the time of account creation.",
+=======
           "uuid": "1bfb5f0a-4a59-4247-be2e-58effb782d68",
           "title": "US_002 user in registeration page",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
+<<<<<<< HEAD
+              "title": "TC_001 The date cannot be typed earlier, in the past, at the time of creation an account",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_001 The date cannot be typed earlier, in the past, at the time of creation an account",
+              "timedOut": null,
+              "duration": 31551,
+=======
               "title": "TC001 Any field on the registration page should not be left blank",
               "fullTitle": "US_002 user in registeration page TC001 Any field on the registration page should not be left blank",
               "timedOut": null,
               "duration": 15642,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,16 +77,46 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
+<<<<<<< HEAD
+              "uuid": "7338632d-6b74-4784-9a52-1ce8282da800",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+=======
               "uuid": "e1642bbf-09fd-4ee3-b432-4b3409b8cbab",
               "parentUUID": "1bfb5f0a-4a59-4247-be2e-58effb782d68",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             },
             {
+<<<<<<< HEAD
+              "title": "TC_002 User can choose a user from the registration and it cannot be blank",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_002 User can choose a user from the registration and it cannot be blank",
+              "timedOut": null,
+              "duration": 6708,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d6da0518-f0db-4021-ab5a-e0a8c91fd89a",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_003 user can choose an account created on manage accounts",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_003 user can choose an account created on manage accounts",
+              "timedOut": null,
+              "duration": 3404,
+=======
               "title": "TC002 SSN should be with \"-\" (example #1)",
               "fullTitle": "US_002 user in registeration page TC002 SSN should be with \"-\" (example #1)",
               "timedOut": null,
               "duration": 727,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,16 +125,28 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
+<<<<<<< HEAD
+              "uuid": "ab6bc4eb-ecbe-40d0-acb6-c5032c1842e8",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+=======
               "uuid": "f8f3dc40-df0e-4e00-b74a-208aeb5c3440",
               "parentUUID": "1bfb5f0a-4a59-4247-be2e-58effb782d68",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             },
             {
+<<<<<<< HEAD
+              "title": "TC_004 User can select Zelle Enrolled optionally and save it",
+              "fullTitle": "US_014 The date must be created at the time of account creation. TC_004 User can select Zelle Enrolled optionally and save it",
+              "timedOut": null,
+              "duration": 3660,
+=======
               "title": "TC002 SSN should be with \"-\" (example #2)",
               "fullTitle": "US_002 user in registeration page TC002 SSN should be with \"-\" (example #2)",
               "timedOut": null,
               "duration": 564,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,6 +155,10 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
+<<<<<<< HEAD
+              "uuid": "3bae7697-9c77-4301-88db-033e71e6e1b9",
+              "parentUUID": "34870864-ebf5-4225-9a8a-e334a12fe005",
+=======
               "uuid": "1112dfc3-a1fd-4b0c-a24a-e12b6a5c6d4c",
               "parentUUID": "1bfb5f0a-4a59-4247-be2e-58effb782d68",
               "isHook": false,
@@ -481,12 +557,19 @@
               "err": {},
               "uuid": "9d245f4c-f447-4ddf-865b-36e908e610a3",
               "parentUUID": "1bfb5f0a-4a59-4247-be2e-58effb782d68",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
+            "7338632d-6b74-4784-9a52-1ce8282da800",
+            "d6da0518-f0db-4021-ab5a-e0a8c91fd89a",
+            "ab6bc4eb-ecbe-40d0-acb6-c5032c1842e8",
+            "3bae7697-9c77-4301-88db-033e71e6e1b9"
+=======
             "e1642bbf-09fd-4ee3-b432-4b3409b8cbab",
             "f8f3dc40-df0e-4e00-b74a-208aeb5c3440",
             "1112dfc3-a1fd-4b0c-a24a-e12b6a5c6d4c",
@@ -512,11 +595,16 @@
             "47516912-53ab-4887-b317-f36479e3bb04",
             "47f845a2-0304-4bbd-917d-677f62f0f008",
             "9d245f4c-f447-4ddf-865b-36e908e610a3"
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
+          "duration": 45323,
+=======
           "duration": 43269,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -1,4 +1,10 @@
 
+<<<<<<< HEAD
+{
+    
+    "projectId": "djgq48",
+    "testFiles": "**/*.feature",
+=======
 
 
 {
@@ -6,6 +12,7 @@
 
     "projectId": "psbbps",
 {"testFiles": "**/*.feature",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
  
     
     "reporter": "cypress-multi-reporters",

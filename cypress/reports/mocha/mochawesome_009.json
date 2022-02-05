@@ -5,9 +5,15 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
+<<<<<<< HEAD
+    "start": "2022-01-30T20:19:56.734Z",
+    "end": "2022-01-30T20:20:56.211Z",
+    "duration": 59477,
+=======
     "start": "2022-01-29T18:15:56.011Z",
     "end": "2022-01-29T18:16:28.301Z",
     "duration": 32290,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +24,11 @@
   },
   "results": [
     {
+<<<<<<< HEAD
+      "uuid": "e0b5f370-24c8-4d46-9b0d-06899acd1272",
+=======
       "uuid": "febdb90e-c800-4ef1-ac47-02a76c606bfa",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
       "title": "",
       "fullFile": "cypress/integration/US_010.feature",
       "file": "cypress/integration/US_010.feature",
@@ -27,7 +37,11 @@
       "tests": [],
       "suites": [
         {
+<<<<<<< HEAD
+          "uuid": "1778215c-0178-468d-9478-dcdaf8a0c227",
+=======
           "uuid": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "title": "US_010 Address of customer can be created",
           "fullFile": "",
           "file": "",
@@ -38,7 +52,11 @@
               "title": "TC_001 Address as street and number should be provided  and cannot be left blank",
               "fullTitle": "US_010 Address of customer can be created TC_001 Address as street and number should be provided  and cannot be left blank",
               "timedOut": null,
+<<<<<<< HEAD
+              "duration": 52678,
+=======
               "duration": 29477,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +65,33 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
+<<<<<<< HEAD
+              "uuid": "0274c5fa-a554-4c9f-8058-2bf0aa573320",
+              "parentUUID": "1778215c-0178-468d-9478-dcdaf8a0c227",
+=======
               "uuid": "7a8b2234-4c82-4a1f-83c7-6d83252426c2",
               "parentUUID": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
+<<<<<<< HEAD
+            "0274c5fa-a554-4c9f-8058-2bf0aa573320"
+=======
             "7a8b2234-4c82-4a1f-83c7-6d83252426c2"
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
+<<<<<<< HEAD
+          "duration": 52678,
+=======
           "duration": 29477,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
