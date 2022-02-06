@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+<<<<<<< HEAD
+    "start": "2022-01-30T20:08:18.349Z",
+    "end": "2022-01-30T20:09:24.814Z",
+    "duration": 66465,
+=======
+    "start": "2022-01-29T18:12:15.581Z",
+    "end": "2022-01-29T18:12:49.683Z",
+    "duration": 34102,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+<<<<<<< HEAD
+      "uuid": "2fb5c341-43fe-4e14-87f6-5fa759977d6a",
+=======
+      "uuid": "c10ae6f4-4ead-4da6-9891-102de4fde61b",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "title": "",
+      "fullFile": "cypress/integration/US_004.feature",
+      "file": "cypress/integration/US_004.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+<<<<<<< HEAD
+          "uuid": "ca345b92-8750-4ecb-93db-5face773a3ec",
+=======
+          "uuid": "7db1a9e8-cd77-4148-8ddd-34280fca355c",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "title": "US_004 positive, negative, cancel Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 positive, negative, cancel Login",
+              "fullTitle": "US_004 positive, negative, cancel Login TC_001 positive, negative, cancel Login",
+              "timedOut": null,
+<<<<<<< HEAD
+              "duration": 58150,
+=======
+              "duration": 30167,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+<<<<<<< HEAD
+              "uuid": "ccceade5-8f52-4018-b013-6919941f0765",
+              "parentUUID": "ca345b92-8750-4ecb-93db-5face773a3ec",
+=======
+              "uuid": "c1d0fa9e-0235-435e-ac7e-e693f49b1f9c",
+              "parentUUID": "7db1a9e8-cd77-4148-8ddd-34280fca355c",
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+<<<<<<< HEAD
+            "ccceade5-8f52-4018-b013-6919941f0765"
+=======
+            "c1d0fa9e-0235-435e-ac7e-e693f49b1f9c"
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+<<<<<<< HEAD
+          "duration": 58150,
+=======
+          "duration": 30167,
+>>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
