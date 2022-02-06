@@ -1,23 +1,20 @@
-import { Then } from "cypress-cucumber-preprocessor/steps/index";
+import { Given, Then } from "cypress-cucumber-preprocessor/steps/index";
 
-Given(
-    'Get registrations data',
-  (endpoint, id) => {
-    cy.api({
-      url: "/api/tp-account-registrations",
-      method: "GET",
-      auth: {
-        username: "team69Admin",
-        password: "Team69+",
-      },
-    })
-      .its("status")
-      .should("eq", 200);
-  }
-),
+Given("Get registrations data", () => {
+  cy.api({
+    url: "https://www.gmibank.com/api/tp-account-registrations",
+    method: "GET",
+    auth: {
+      username: "team69Admin",
+      password: "Team69+",
+    },
+  })
+    .its("status")
+    .should("eq", 200);
+}),
   Then("Post registrations data", () => {
     cy.api({
-      url: "/api/tp-account-registrations",
+      url: "https://www.gmibank.com/api/tp-account-registrations",
       method: "POST",
       auth: {
         username: "team69Admin",
