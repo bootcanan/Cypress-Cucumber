@@ -87,6 +87,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
                 //  cy.get('#newPassword').clear().type(this.data.password)
                 //  cy.get('#confirmPassword').type(this.data.password)
                 //  cy.get('.btn').click()
+                // git --abort
 
             })
            

@@ -4,8 +4,6 @@
 {
     "testFiles": "**/*.feature",
 
-    "projectId": "psbbps",
-{"testFiles": "**/*.feature",
  
     
     "reporter": "cypress-multi-reporters",
