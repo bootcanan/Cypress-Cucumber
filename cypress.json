@@ -1,8 +1,6 @@
 
 
-
-{
-    "testFiles": "**/*.feature",
+{"testFiles": "**/*.feature",
 
  
     
@@ -18,10 +16,8 @@
         }
     },
     "watchForFileChanges": false,
+    "baseUrl":"https://www.gmibank.com/"
+     
     
-     "baseUrl": "https://www.gmibank.com",
-     "integrationFolder": "cypress/integration"
     
-       
 }
-
