@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@bahmutov/cy-api": "^1.6.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
     "cypress": "^9.3.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-multi-reporters": "^1.5.0",
