@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-07T17:56:45.545Z",
+    "end": "2022-02-07T17:57:52.474Z",
+    "duration": 66929,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "23b22af5-9d07-48c5-ad49-df4e881e41e4",
+      "title": "",
+      "fullFile": "cypress/integration/US_017.feature",
+      "file": "cypress/integration/US_017.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+          "title": "US_017 System must allow Admin to manage users",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC_001 Admin can activate a role as user",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_001 Admin can activate a role as user",
+              "timedOut": null,
+              "duration": 15288,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "85f114d9-4ab7-4733-a610-c0299765fc4f",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_002 Admin can activate a role as employee",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_002 Admin can activate a role as employee",
+              "timedOut": null,
+              "duration": 4524,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "64bab6f6-da14-4ca7-ae9a-3c3365a8481c",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_003 Admin can activate a role as manager",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_003 Admin can activate a role as manager",
+              "timedOut": null,
+              "duration": 5701,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "1e32c477-0ac1-4199-81bf-b7389ca3e107",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_004 Admin can activate a role as admin",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_004 Admin can activate a role as admin",
+              "timedOut": null,
+              "duration": 6609,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e9fb8ea3-acfc-4855-a73c-e5574c521f97",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_005 Admin can view all user info (admin, manager, employee and user)",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_005 Admin can view all user info (admin, manager, employee and user)",
+              "timedOut": null,
+              "duration": 6190,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d962b4b8-2b3b-4997-9cb5-a9402797d893",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_006 Admin can edit all user info  (admin, manager, employee and user)",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_006 Admin can edit all user info  (admin, manager, employee and user)",
+              "timedOut": null,
+              "duration": 13640,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f314dd1f-d59c-442b-95ec-44e09eff25f1",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC_007 Admin can delete all user info  (admin, manager, employee and user)",
+              "fullTitle": "US_017 System must allow Admin to manage users TC_007 Admin can delete all user info  (admin, manager, employee and user)",
+              "timedOut": null,
+              "duration": 13658,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "160ad6b0-025d-4648-b5b0-2c3475cc50ea",
+              "parentUUID": "060af8ec-8d40-4144-bb6e-db1be4473d83",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "85f114d9-4ab7-4733-a610-c0299765fc4f",
+            "64bab6f6-da14-4ca7-ae9a-3c3365a8481c",
+            "1e32c477-0ac1-4199-81bf-b7389ca3e107",
+            "e9fb8ea3-acfc-4855-a73c-e5574c521f97",
+            "d962b4b8-2b3b-4997-9cb5-a9402797d893",
+            "f314dd1f-d59c-442b-95ec-44e09eff25f1",
+            "160ad6b0-025d-4648-b5b0-2c3475cc50ea"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 65610,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
