@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-01-31T19:25:06.090Z",
+    "end": "2022-01-31T19:25:35.706Z",
+    "duration": 29616,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9959e38e-7278-4ab8-9bb2-4643c332a7f8",
+      "title": "",
+      "fullFile": "cypress/integration/US_008.feature",
+      "file": "cypress/integration/US_008.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "88d78d64-aefa-492a-b591-1e3eb1535d35",
+          "title": "US_008 user in password page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC001 same password not to be repeat",
+              "fullTitle": "US_008 user in password page TC001 same password not to be repeat",
+              "timedOut": null,
+              "duration": 20354,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "a84cdd19-4c3b-4c17-ab3a-7852b2669ff8",
+              "parentUUID": "88d78d64-aefa-492a-b591-1e3eb1535d35",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC002 different passwords with different forms",
+              "fullTitle": "US_008 user in password page TC002 different passwords with different forms",
+              "timedOut": null,
+              "duration": 6840,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "fe9235c6-f673-4677-86c9-17c135950566",
+              "parentUUID": "88d78d64-aefa-492a-b591-1e3eb1535d35",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a84cdd19-4c3b-4c17-ab3a-7852b2669ff8",
+            "fe9235c6-f673-4677-86c9-17c135950566"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 27194,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
