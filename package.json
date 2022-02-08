@@ -20,6 +20,10 @@
     "mochawesome-report-generator": "^6.0.1"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+
+      "baseUrl": "https://www.gmibank.com",
+     "integrationFolder": "cypress/integration"
+     
   }
 }

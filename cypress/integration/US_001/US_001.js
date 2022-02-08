@@ -13,10 +13,9 @@ describe("US 001", () => {
   });
 
 
-Given('user is on GMI Bank page',()=>{
-
+ Given('user is on GMI Bank page',()=>{
   cy.visit('https://gmibank.com/');
-
+  
 })
 
 Then('user clicks registration button',()=>{
