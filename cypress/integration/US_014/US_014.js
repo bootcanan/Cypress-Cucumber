@@ -18,8 +18,6 @@
     cy.get('#entity-menu > .dropdown-toggle').click();
     cy.get('[href="/tp-customer"]').click();
   
-     
-
   })
   And('user clicks on the  date creation input',()=>{
 
