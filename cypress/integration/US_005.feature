@@ -9,16 +9,16 @@ Feature: US_005 Login page should not be accessible with invalid credentials
 
 
   Scenario: TC_001 User cannot login with invalid username validating the error message
- Given user is on GMI Bank page
+  Given user is on GMI Bank page
   Given user clicks sign in button
   And user enters invalid username and valid password
   And user clicks sign in button down
   Then user sees Failed to sign in! Please check your credentials and try again. text
 
    Scenario: TC_002 User cannot login with invalid password validating the error message
-  Given user is on GMI Bank page
+   Given user is on GMI Bank page
    Given user clicks sign in button
-  And user enters valid username and invalid password
+   And user enters valid username and invalid password
    And user clicks sign in button down
    Then user sees Failed to sign in! Please check your credentials and try again. text
 
