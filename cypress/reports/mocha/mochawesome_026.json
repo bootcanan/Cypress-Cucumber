@@ -5,15 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-<<<<<<< HEAD
-    "start": "2022-01-30T20:18:14.735Z",
-    "end": "2022-01-30T20:19:11.724Z",
-    "duration": 56989,
-=======
-    "start": "2022-01-29T18:15:15.611Z",
-    "end": "2022-01-29T18:15:46.866Z",
-    "duration": 31255,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+    "start": "2022-01-31T19:24:21.195Z",
+    "end": "2022-01-31T19:24:46.180Z",
+    "duration": 24985,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -24,39 +18,27 @@
   },
   "results": [
     {
-<<<<<<< HEAD
-      "uuid": "d8234b32-901a-40b8-9c40-570fbc89a6c6",
-=======
-      "uuid": "82aa4330-6a6b-4d8f-bc06-d7255fd01cfa",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "uuid": "02470f35-b5d2-4054-bd3c-741552daf31e",
       "title": "",
-      "fullFile": "cypress/integration/US_008.feature",
-      "file": "cypress/integration/US_008.feature",
+      "fullFile": "cypress/integration/US_007.feature",
+      "file": "cypress/integration/US_007.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "d8b5f65b-8bc7-4f01-85c9-b6a602d3f0be",
-=======
-          "uuid": "72819681-1516-453f-a03d-5de6d6fea2ff",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
-          "title": "US_008 user in password page",
+          "uuid": "d08702c0-a7ea-4387-8a1f-ad6654219b2b",
+          "title": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir.",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TC001 same password not to be repeat",
-              "fullTitle": "US_008 user in password page TC001 same password not to be repeat",
+              "title": "TC_001 Email id cannot contain just digits or chars without \"@\" sign or \".\" extension",
+              "fullTitle": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir. TC_001 Email id cannot contain just digits or chars without \"@\" sign or \".\" extension",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 30109,
-=======
-              "duration": 21589,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "duration": 21898,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,64 +47,39 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "ab2fd86c-6cf1-4931-b914-64b1a4a7dd44",
-              "parentUUID": "d8b5f65b-8bc7-4f01-85c9-b6a602d3f0be",
-=======
-              "uuid": "ad7744a0-144e-4f0e-b387-9c6049fe064d",
-              "parentUUID": "72819681-1516-453f-a03d-5de6d6fea2ff",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "c306b3e6-5499-4efb-b06d-185ed838d7d3",
+              "parentUUID": "d08702c0-a7ea-4387-8a1f-ad6654219b2b",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "TC002 different passwords with different forms",
-              "fullTitle": "US_008 user in password page TC002 different passwords with different forms",
+              "title": "TC_002 There should not be an option of any other language other than English or Turkish",
+              "fullTitle": "US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir. TC_002 There should not be an option of any other language other than English or Turkish",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 19692,
+              "duration": 1103,
               "state": "passed",
-              "speed": "slow",
-=======
-              "duration": 7030,
-              "state": "passed",
-              "speed": "medium",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "d83382a3-456a-4b78-9859-7a84e3dc3e0b",
-              "parentUUID": "d8b5f65b-8bc7-4f01-85c9-b6a602d3f0be",
-=======
-              "uuid": "11c2101a-627e-4a5e-8e17-309e0708f27b",
-              "parentUUID": "72819681-1516-453f-a03d-5de6d6fea2ff",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "88786416-f10d-4537-90d1-8570a26be4be",
+              "parentUUID": "d08702c0-a7ea-4387-8a1f-ad6654219b2b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "ab2fd86c-6cf1-4931-b914-64b1a4a7dd44",
-            "d83382a3-456a-4b78-9859-7a84e3dc3e0b"
-=======
-            "ad7744a0-144e-4f0e-b387-9c6049fe064d",
-            "11c2101a-627e-4a5e-8e17-309e0708f27b"
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+            "c306b3e6-5499-4efb-b06d-185ed838d7d3",
+            "88786416-f10d-4537-90d1-8570a26be4be"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 49801,
-=======
-          "duration": 28619,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "duration": 23001,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -1,25 +1,14 @@
 {
   "stats": {
     "suites": 1,
-<<<<<<< HEAD
     "tests": 7,
     "passes": 7,
     "pending": 0,
     "failures": 0,
-    "start": "2022-01-30T20:01:59.756Z",
-    "end": "2022-01-30T20:04:13.013Z",
-    "duration": 133257,
+    "start": "2022-01-31T19:18:22.795Z",
+    "end": "2022-01-31T19:19:21.840Z",
+    "duration": 59045,
     "testsRegistered": 7,
-=======
-    "tests": 1,
-    "passes": 1,
-    "pending": 0,
-    "failures": 0,
-    "start": "2022-01-29T18:10:31.677Z",
-    "end": "2022-01-29T18:11:02.004Z",
-    "duration": 30327,
-    "testsRegistered": 1,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -29,11 +18,7 @@
   },
   "results": [
     {
-<<<<<<< HEAD
-      "uuid": "a421175e-8e50-4d7a-b49a-60802f8aa03a",
-=======
-      "uuid": "24ed66c1-539f-42c5-ab14-24f82f6dbd59",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "uuid": "93a35b01-fbc1-473f-abea-5b87e0c8b4ed",
       "title": "",
       "fullFile": "cypress/integration/US_001.feature",
       "file": "cypress/integration/US_001.feature",
@@ -42,11 +27,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "77b1f944-1d00-4425-8925-2547e1895011",
-=======
-          "uuid": "beb7f64d-7b2a-43b7-a9b3-37619f6d2635",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "uuid": "b1027191-40f7-4936-88fa-345a97c7bcb7",
           "title": "US_001 System should allow any user to register with valid credentials",
           "fullFile": "",
           "file": "",
@@ -57,11 +38,7 @@
               "title": "TC_001 There should be a valid SSN respecting the \"-\" where necessary, it should be 9 digits long",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_001 There should be a valid SSN respecting the \"-\" where necessary, it should be 9 digits long",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 20399,
-=======
-              "duration": 26158,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "duration": 26842,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -70,9 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "e74eaf77-df33-4ae6-beb6-71f3d2827423",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "0604fe5e-0719-4d0c-ace8-b10033ee81db",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -80,17 +56,17 @@
               "title": "TC_002 There should be a valid name that contains chars and cannot be blank",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_002 There should be a valid name that contains chars and cannot be blank",
               "timedOut": null,
-              "duration": 16229,
+              "duration": 5033,
               "state": "passed",
-              "speed": "slow",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "25e745db-c625-4974-b021-4b78b96cb806",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "7e4162f0-3a71-4ca8-82fd-fff900aca1bc",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -98,17 +74,17 @@
               "title": "TC_003 There should be a valid lastname that contains chars and it is a required field",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_003 There should be a valid lastname that contains chars and it is a required field",
               "timedOut": null,
-              "duration": 15061,
+              "duration": 3607,
               "state": "passed",
-              "speed": "slow",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "2fae07b3-c5b8-4a92-8db3-9da8cfb58d2a",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "c1d860e2-7bf6-4367-a3eb-4fd30dbd147a",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -116,17 +92,17 @@
               "title": "TC_004 You can provide chars and digits to describe a valid address along with zip code",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_004 You can provide chars and digits to describe a valid address along with zip code",
               "timedOut": null,
-              "duration": 16640,
+              "duration": 4017,
               "state": "passed",
-              "speed": "slow",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "1961376d-e379-4717-8b12-8cef003e79b6",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "9c6a4ae4-76b3-48f8-aef7-b41f7735bc04",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -134,17 +110,17 @@
               "title": "TC_005 User should provide 10 digit-long mobilephone number as a required field respecting the \"-\"",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_005 User should provide 10 digit-long mobilephone number as a required field respecting the \"-\"",
               "timedOut": null,
-              "duration": 25268,
+              "duration": 4919,
               "state": "passed",
-              "speed": "slow",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "f947202a-cdd3-458a-906e-1a211978d8ec",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "ff6aaca4-4a9e-4e25-93fb-f831677546a2",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -152,17 +128,17 @@
               "title": "TC_006 User cannot use just digits, but can use any chars and digits along with them and of any length",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_006 User cannot use just digits, but can use any chars and digits along with them and of any length",
               "timedOut": null,
-              "duration": 16212,
+              "duration": 4564,
               "state": "passed",
-              "speed": "slow",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "cec2ecf0-84b6-4fc3-9bc0-a3482bcbc227",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
+              "uuid": "44b384dd-fad9-4e36-bc16-c5d888914ac9",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             },
@@ -170,47 +146,35 @@
               "title": "TC_007 You should provide a valid email format that contains \"@\"sign and \".\" extensions",
               "fullTitle": "US_001 System should allow any user to register with valid credentials TC_007 You should provide a valid email format that contains \"@\"sign and \".\" extensions",
               "timedOut": null,
-              "duration": 13326,
+              "duration": 2849,
               "state": "passed",
-              "speed": "slow",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "5c807a91-68ed-4eae-bcdd-da6e8f4a41f4",
-              "parentUUID": "77b1f944-1d00-4425-8925-2547e1895011",
-=======
-              "uuid": "dde79015-45a2-4ba4-8277-82c2f00faa1b",
-              "parentUUID": "beb7f64d-7b2a-43b7-a9b3-37619f6d2635",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "bca352cb-47cb-4601-b5dd-133b858d8b00",
+              "parentUUID": "b1027191-40f7-4936-88fa-345a97c7bcb7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "e74eaf77-df33-4ae6-beb6-71f3d2827423",
-            "25e745db-c625-4974-b021-4b78b96cb806",
-            "2fae07b3-c5b8-4a92-8db3-9da8cfb58d2a",
-            "1961376d-e379-4717-8b12-8cef003e79b6",
-            "f947202a-cdd3-458a-906e-1a211978d8ec",
-            "cec2ecf0-84b6-4fc3-9bc0-a3482bcbc227",
-            "5c807a91-68ed-4eae-bcdd-da6e8f4a41f4"
-=======
-            "dde79015-45a2-4ba4-8277-82c2f00faa1b"
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+            "0604fe5e-0719-4d0c-ace8-b10033ee81db",
+            "7e4162f0-3a71-4ca8-82fd-fff900aca1bc",
+            "c1d860e2-7bf6-4367-a3eb-4fd30dbd147a",
+            "9c6a4ae4-76b3-48f8-aef7-b41f7735bc04",
+            "ff6aaca4-4a9e-4e25-93fb-f831677546a2",
+            "44b384dd-fad9-4e36-bc16-c5d888914ac9",
+            "bca352cb-47cb-4601-b5dd-133b858d8b00"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 123135,
-=======
-          "duration": 26158,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "duration": 51831,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

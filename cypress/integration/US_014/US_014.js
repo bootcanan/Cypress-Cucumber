@@ -30,7 +30,7 @@
 
    Then('verify date creation can not type earlier',()=>{
     let date = new Date();
-cy.get('#tp-customer-createDate').should('not.have.value', date.toJSON().slice(0, 16))
+cy.get('#tp-customer-createDate').should('not.have.value', date.toJSON().slice(0, 16));
    })
 
 

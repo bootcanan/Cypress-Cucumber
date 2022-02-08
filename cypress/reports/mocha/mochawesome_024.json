@@ -5,15 +5,9 @@
     "passes": 5,
     "pending": 0,
     "failures": 0,
-<<<<<<< HEAD
-    "start": "2022-01-30T20:10:13.989Z",
-    "end": "2022-01-30T20:11:40.403Z",
-    "duration": 86414,
-=======
-    "start": "2022-01-29T18:12:59.848Z",
-    "end": "2022-01-29T18:13:46.527Z",
-    "duration": 46679,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+    "start": "2022-01-31T19:22:20.552Z",
+    "end": "2022-01-31T19:23:03.374Z",
+    "duration": 42822,
     "testsRegistered": 5,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -24,11 +18,7 @@
   },
   "results": [
     {
-<<<<<<< HEAD
-      "uuid": "c3020da1-3943-49e3-b3f9-2c8c23d4c342",
-=======
-      "uuid": "f28a6fc6-651d-4d39-9130-12a349903279",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "uuid": "e438c42c-9750-46af-915d-57dea5b4c62f",
       "title": "",
       "fullFile": "cypress/integration/US_005.feature",
       "file": "cypress/integration/US_005.feature",
@@ -37,11 +27,7 @@
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-          "uuid": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "uuid": "229562cc-08ad-4837-81cd-2ae983a7faf5",
           "title": "US_005 Login page should not be accessible with invalid credentials",
           "fullFile": "",
           "file": "",
@@ -52,11 +38,7 @@
               "title": "TC_001 User cannot login with invalid username validating the error message",
               "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_001 User cannot login with invalid username validating the error message",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 21545,
-=======
-              "duration": 18664,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "duration": 16351,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,13 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "266c6ae7-cd67-4530-a4ca-a2b8337216c3",
-              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-              "uuid": "85de54a4-e9f6-4f8c-8fe9-e48953a53758",
-              "parentUUID": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "7f4a6057-0b7e-49ea-a0fc-875e54d05821",
+              "parentUUID": "229562cc-08ad-4837-81cd-2ae983a7faf5",
               "isHook": false,
               "skipped": false
             },
@@ -79,28 +56,17 @@
               "title": "TC_002 User cannot login with invalid password validating the error message",
               "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_002 User cannot login with invalid password validating the error message",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 10957,
-              "state": "passed",
-              "speed": "slow",
-=======
-              "duration": 6816,
+              "duration": 6431,
               "state": "passed",
               "speed": "medium",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "f3ebbe1e-ee5c-4022-b8d3-0e8798407eba",
-              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-              "uuid": "6527fb79-322d-4941-9b3c-5bbe2504912f",
-              "parentUUID": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "2a7a7000-74f7-446c-99f4-ff5990d77a66",
+              "parentUUID": "229562cc-08ad-4837-81cd-2ae983a7faf5",
               "isHook": false,
               "skipped": false
             },
@@ -108,28 +74,17 @@
               "title": "TC_003 User cannot login with invalid username and password validating the error message",
               "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_003 User cannot login with invalid username and password validating the error message",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 13453,
-              "state": "passed",
-              "speed": "slow",
-=======
-              "duration": 5787,
+              "duration": 6067,
               "state": "passed",
               "speed": "medium",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "76c676e1-9d68-41bd-9136-63e804760954",
-              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-              "uuid": "317e20db-8b24-4346-801c-1a1243c85734",
-              "parentUUID": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "822c2d05-43ab-49a9-b568-2085713e0851",
+              "parentUUID": "229562cc-08ad-4837-81cd-2ae983a7faf5",
               "isHook": false,
               "skipped": false
             },
@@ -137,28 +92,17 @@
               "title": "TC_004 User who wants to login with invalid username and password, there should be password reset button",
               "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_004 User who wants to login with invalid username and password, there should be password reset button",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 18252,
-              "state": "passed",
-              "speed": "slow",
-=======
-              "duration": 6051,
+              "duration": 5094,
               "state": "passed",
               "speed": "medium",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "68fd7284-4b99-41b2-af80-8218454226d3",
-              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-              "uuid": "3b1dfe63-2b62-424a-a293-afe0276ee459",
-              "parentUUID": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "50c19c17-4c4a-4661-80f5-8712ff761f31",
+              "parentUUID": "229562cc-08ad-4837-81cd-2ae983a7faf5",
               "isHook": false,
               "skipped": false
             },
@@ -166,56 +110,33 @@
               "title": "TC_005 User who wants to login with invalid username and password, there should be registration button",
               "fullTitle": "US_005 Login page should not be accessible with invalid credentials TC_005 User who wants to login with invalid username and password, there should be registration button",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 13928,
-              "state": "passed",
-              "speed": "slow",
-=======
-              "duration": 5368,
+              "duration": 5429,
               "state": "passed",
               "speed": "medium",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "e3d23e80-3d93-466b-be9b-da50eb493a9c",
-              "parentUUID": "cf6307d2-cc45-4ede-abf1-10b45eb1e3a3",
-=======
-              "uuid": "200cc7cc-eeee-4e04-9d87-00eefcde441f",
-              "parentUUID": "20e76ea9-b32e-4470-84b2-8a861e79d7c1",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "101083ce-fd55-4462-a242-0090269a44a2",
+              "parentUUID": "229562cc-08ad-4837-81cd-2ae983a7faf5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "266c6ae7-cd67-4530-a4ca-a2b8337216c3",
-            "f3ebbe1e-ee5c-4022-b8d3-0e8798407eba",
-            "76c676e1-9d68-41bd-9136-63e804760954",
-            "68fd7284-4b99-41b2-af80-8218454226d3",
-            "e3d23e80-3d93-466b-be9b-da50eb493a9c"
-=======
-            "85de54a4-e9f6-4f8c-8fe9-e48953a53758",
-            "6527fb79-322d-4941-9b3c-5bbe2504912f",
-            "317e20db-8b24-4346-801c-1a1243c85734",
-            "3b1dfe63-2b62-424a-a293-afe0276ee459",
-            "200cc7cc-eeee-4e04-9d87-00eefcde441f"
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+            "7f4a6057-0b7e-49ea-a0fc-875e54d05821",
+            "2a7a7000-74f7-446c-99f4-ff5990d77a66",
+            "822c2d05-43ab-49a9-b568-2085713e0851",
+            "50c19c17-4c4a-4661-80f5-8712ff761f31",
+            "101083ce-fd55-4462-a242-0090269a44a2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 78135,
-=======
-          "duration": 42686,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "duration": 39372,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -1,20 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 0,
-<<<<<<< HEAD
-    "start": "2022-01-30T20:19:56.734Z",
-    "end": "2022-01-30T20:20:56.211Z",
-    "duration": 59477,
-=======
-    "start": "2022-01-29T18:15:56.011Z",
-    "end": "2022-01-29T18:16:28.301Z",
-    "duration": 32290,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
-    "testsRegistered": 1,
+    "start": "2022-01-31T19:25:06.090Z",
+    "end": "2022-01-31T19:25:35.706Z",
+    "duration": 29616,
+    "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -24,39 +18,27 @@
   },
   "results": [
     {
-<<<<<<< HEAD
-      "uuid": "e0b5f370-24c8-4d46-9b0d-06899acd1272",
-=======
-      "uuid": "febdb90e-c800-4ef1-ac47-02a76c606bfa",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+      "uuid": "9959e38e-7278-4ab8-9bb2-4643c332a7f8",
       "title": "",
-      "fullFile": "cypress/integration/US_010.feature",
-      "file": "cypress/integration/US_010.feature",
+      "fullFile": "cypress/integration/US_008.feature",
+      "file": "cypress/integration/US_008.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-<<<<<<< HEAD
-          "uuid": "1778215c-0178-468d-9478-dcdaf8a0c227",
-=======
-          "uuid": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
-          "title": "US_010 Address of customer can be created",
+          "uuid": "88d78d64-aefa-492a-b591-1e3eb1535d35",
+          "title": "US_008 user in password page",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TC_001 Address as street and number should be provided  and cannot be left blank",
-              "fullTitle": "US_010 Address of customer can be created TC_001 Address as street and number should be provided  and cannot be left blank",
+              "title": "TC001 same password not to be repeat",
+              "fullTitle": "US_008 user in password page TC001 same password not to be repeat",
               "timedOut": null,
-<<<<<<< HEAD
-              "duration": 52678,
-=======
-              "duration": 29477,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "duration": 20354,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,33 +47,39 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-<<<<<<< HEAD
-              "uuid": "0274c5fa-a554-4c9f-8058-2bf0aa573320",
-              "parentUUID": "1778215c-0178-468d-9478-dcdaf8a0c227",
-=======
-              "uuid": "7a8b2234-4c82-4a1f-83c7-6d83252426c2",
-              "parentUUID": "73ac7bfd-bb4d-43e3-ba36-d00a34050bfb",
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+              "uuid": "a84cdd19-4c3b-4c17-ab3a-7852b2669ff8",
+              "parentUUID": "88d78d64-aefa-492a-b591-1e3eb1535d35",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC002 different passwords with different forms",
+              "fullTitle": "US_008 user in password page TC002 different passwords with different forms",
+              "timedOut": null,
+              "duration": 6840,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "fe9235c6-f673-4677-86c9-17c135950566",
+              "parentUUID": "88d78d64-aefa-492a-b591-1e3eb1535d35",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-<<<<<<< HEAD
-            "0274c5fa-a554-4c9f-8058-2bf0aa573320"
-=======
-            "7a8b2234-4c82-4a1f-83c7-6d83252426c2"
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+            "a84cdd19-4c3b-4c17-ab3a-7852b2669ff8",
+            "fe9235c6-f673-4677-86c9-17c135950566"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-<<<<<<< HEAD
-          "duration": 52678,
-=======
-          "duration": 29477,
->>>>>>> 4095d27af2d3e0040d9d19b91940fe901be382a1
+          "duration": 27194,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
