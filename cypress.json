@@ -3,7 +3,7 @@
 
 
 
-<<<<<<< HEAD
+
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
     "reporterEnabled": "mochawesome",
@@ -19,28 +19,3 @@
   "baseUrl": "https://www.gmibank.com/",
   "integrationFolder": "cypress/integration/api-tests"
 }
-=======
-{
-    "testFiles": "**/*.feature",
-
-  
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
-        "reporterEnabled": "mochawesome",
-        "mochawesomeReporterOptions": {
-            "reportDir": "cypress/reports/mocha",
-            "quite": true,
-            "overwrite": false,
-            "html": false,
-            "json": true
-        }
-    },
-    "watchForFileChanges": false,
-    "baseUrl": "https://www.gmibank.com",
-     "integrationFolder": "cypress/integration"
-     
-   }
- 
-
->>>>>>> karahan
-
