@@ -24,6 +24,7 @@ Given('In countries user sets all response using end point {string} and validate
                 username: 'team69Admin',
                 password: 'Team69+'
               },
+              
               body:{
                name: "Milton",
                states: null
