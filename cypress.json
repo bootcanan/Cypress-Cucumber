@@ -1,21 +1,20 @@
 {
   "testFiles": "**/*.feature",
-
-
-
-
-  "reporter": "cypress-multi-reporters",
-  "reporterOptions": {
-    "reporterEnabled": "mochawesome",
-    "mochawesomeReporterOptions": {
-      "reportDir": "cypress/reports/mocha",
-      "quite": true,
-      "overwrite": false,
-      "html": false,
-      "json": true
-    }
-  },
-  "watchForFileChanges": false,
-  "baseUrl": "https://www.gmibank.com/",
-  "integrationFolder": "cypress/integration/api-tests"
+    
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    },
+    "watchForFileChanges": false,
+    "baseUrl":"https://www.gmibank.com/"
+   
+   
+    
 }
