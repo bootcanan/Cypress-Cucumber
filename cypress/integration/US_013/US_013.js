@@ -27,19 +27,15 @@ Cypress.on('uncaught:exception', (err, runnable) => {
    
     var rnd = Math.floor((Math.random() * 4));
 
-    cy.get('#tp-account-accountType').select(rnd).should('contain.text','CHECKING' || 'SAVING' || 'CREDIT_CARD' || 'INVESTING')
+    cy.get('#tp-account-accountType').select(rnd)
+  
+    const list = ["CHECKING" , "SAVING" , "CREDIT_CARD" , "INVESTING"]
 
+    for(let i = 0; i < list.length; i++){
 
-    //const list = ["CHECKING" , "SAVING" , "CREDIT_CARD" , "INVESTING"]
-        
-    // list.forEach(index=> {
+      cy.get('#tp-account-accountType').should('contain.text' , list[i])
 
-    //     cy.get('#tp-account-accountType').should('deep.equal' , list[index]);
- 
-    //      expect(list[index]).to.contain(cy.get('#tp-account-accountType').value());
-
-    // })
-
+    }
     
   })
 
@@ -47,8 +43,15 @@ Cypress.on('uncaught:exception', (err, runnable) => {
    
       var rnd = Math.floor((Math.random() * 3));
 
-      cy.get('#tp-account-accountStatusType').select(rnd).should('contain.text' , 'ACTIVE' || 'SUSPENDED' || 'CLOSED');
+      cy.get('#tp-account-accountStatusType').select(rnd)
   
+      const listStatus = ["ACTIVE" , "SUESPENDED" , "CLOSED" ]
+
+      for(let i = 0; i < listStatus.length; i++){
+  
+        cy.get('#tp-account-accountStatusType').should('contain.text' , listStatus[i])
+  
+      }
   })
 
   Then('User can select an employee from the drop-down menu / Optional.',()=>{
