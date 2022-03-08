@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('LoginCustomer2',()=> {
+    cy.visit("https://www.gmibank.com/");
+        cy.get('#account-menu > .dropdown-toggle').click()
+        cy.get('#login-item').click()
+        cy.get('#username').type('Tester')
+        cy.get('#password').type('AliVeli+1')
+        cy.get('.btn-primary').click();
+  
+  })
