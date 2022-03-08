@@ -27,31 +27,33 @@ Cypress.on('uncaught:exception', (err, runnable) => {
    
     var rnd = Math.floor((Math.random() * 4));
 
-    cy.get('#tp-account-accountType').select(rnd)
+    cy.get('#tp-account-accountType').select(rnd).should('contain.text','CHECKING' || 'SAVING' || 'CREDIT_CARD' || 'INVESTING')
 
-    const list = ["CHECKING" , "SAVING" , "CREDIT_CARD" , "INVESTING"]
+
+    //const list = ["CHECKING" , "SAVING" , "CREDIT_CARD" , "INVESTING"]
         
-    list.forEach(index=> {
+    // list.forEach(index=> {
 
-        //cy.get('#tp-account-accountType').should('have.text' , list[index]);
+    //     cy.get('#tp-account-accountType').should('deep.equal' , list[index]);
  
-        expect(list[index]).to.contain(cy.get('#tp-account-accountType').value());
+    //      expect(list[index]).to.contain(cy.get('#tp-account-accountType').value());
 
-    })
+    // })
 
+    
   })
 
-    Then('Account status should be defined as ACTIVE, SUSPENDED or CLOSED.',()=>{
+  Then('Account status should be defined as ACTIVE, SUSPENDED or CLOSED.',()=>{
    
       var rnd = Math.floor((Math.random() * 3));
 
-      cy.get('#tp-account-accountStatusType').select(rnd)
+      cy.get('#tp-account-accountStatusType').select(rnd).should('contain.text' , 'ACTIVE' || 'SUSPENDED' || 'CLOSED');
   
-    })
+  })
 
-    Then('User can select an employee from the drop-down menu / Optional.',()=>{
+  Then('User can select an employee from the drop-down menu / Optional.',()=>{
    
       cy.get('#tp-account-employee').select(0)
   
-    })
+  })
   
