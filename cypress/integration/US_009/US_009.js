@@ -54,12 +54,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     cy.get('.Toastify__toast-body').should('be.visible')  
   })
   Given('assert firstname',()=>{
-    //cy.get('#tp-customer-firstName').should('have.value',ssn.first_name)
     cy.get('#tp-customer-firstName').invoke('attr','value').should('be.eq',ssn.first_name)
-    //.and('contain', ssn.email)
-    //.and('contain', 'Middle Initial')
-    //.and('contain', 'Email')
-    //.and('contain', 'Mobile Phone Number')
+   
   })
   Given('assert lastname',()=>{
     cy.get('#tp-customer-lastName').invoke('attr','value').should('be.eq',ssn.last_name)
