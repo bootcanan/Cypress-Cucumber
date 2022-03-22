@@ -21,9 +21,7 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-
-      "baseUrl": "https://www.gmibank.com",
-     "integrationFolder": "cypress/integration"
-     
+    "baseUrl": "https://www.gmibank.com",
+    "integrationFolder": "cypress/integration"
   }
 }
