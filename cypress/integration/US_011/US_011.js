@@ -12,6 +12,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   })
 
   Given('Girilen tarih, müşteri oluşturma anından daha erken veya geçmişte olamaz.',function(){
+
       cy.visit(this.data.loginPage);
       cy.get('#username').type('HelloWorld');
       cy.get('#password').type('GMIBANK.2123');
@@ -42,8 +43,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
         })
     
         Then('Kullanıcı kayıtlı kullanıcılardan bir kullanıcı seçebilir ve bu kısmı boş bırakamaz.',function(){
+
             cy.get('#tp-customer-user').select('jean.king Mason Change').should('have.value', '111238');
-        
+
         })  
         
         Then('Bu kısımda kullanıcı, hesapları yönetmek için oluşturulan bir hesabı seçebilir.',function(){
@@ -53,5 +55,10 @@ Cypress.on('uncaught:exception', (err, runnable) => {
         Then('Kullanıcı isteğe bağlı olarak Zelle Enrolled seçeneğini seçebilir ve kaydedebilir.',function(){
             cy.get('#tp-customer-zelleEnrolled').click()
             cy.get('#save-entity').click();
+        })
+        
+        Then('Kullanıcı isteğe bağlı olarak Zelle Enrolled seçeneğini seçebilir ve kaydedebilir.',function(){
+        
         })  
         
+    
